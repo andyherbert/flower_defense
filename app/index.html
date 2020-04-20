@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flower Defense</title>
+    <script type="module" src="script.js"></script>
+    <style>
+        body {
+            background-color: black;
+        }
+        #display {
+            display: block;
+            margin: 16px auto;
+            image-rendering: crisp-edges;
+            image-rendering: pixelated;
+            border: 1px solid white;
+            border-radius: 3px;
+        }
+        div {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            font-size: 16px;
+            color: white;
+            width: 640px;
+            margin: 0px auto;
+        }
+        a {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>Flower Defense was made by Andy Herbert (code) and bitmap kid (art and music) for the Ludum Dare 46 Jam.</p>
+        <p>The game is available for MacOS, Windows, Linux, and playable in Chrome or Firefox at the bottom of this page. <a href="https://github.com/andyherbert/flower_defense">The source code is also available.</a></p>
+        <ul>
+            <li><a href="FlowerDefense.dmg">MacOS App</a></li>
+            <li><a href="FlowerDefense.exe">Windows Executable</a></li>
+            <li><a href="FlowerDefense.deb">Linux Deb Package</a></li>
+        </ul>
+        <p>
+            Andy Herbert: <a href="mailto:andy.herbert@gmail.com">EMail</a> & <a href="https://github.com/andyherbert">GitHub</a>
+            <br>
+            bitmap kid: <a href="https://soundcloud.com/bitmapkid">Soundcloud</a> & <a href="https://twitter.com/btmpkd">Twitter</a>
+        </p>
+    </div>
+    <canvas id="display" width="480" height="768"></canvas>
+</body>
+</html>

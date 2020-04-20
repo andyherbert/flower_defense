@@ -1,0 +1,22 @@
+directories:
+  output: dist
+  buildResources: build
+appId: org.andyherbert.flowerdefense
+productName: Flower Defense
+copyright: Copyright © 2020 Andy Herbert
+mac:
+  artifactName: FlowerDefense.dmg
+  target: dmg
+  darkModeSupport: true
+win:
+  target:
+  - target: portable
+    arch: [x64, ia32]
+portable:
+  artifactName: FlowerDefense.exe
+linux:
+  artifactName: FlowerDefense.deb
+  target: deb
+  description: Game for Ludum Dare 46 Jam.
+  category: Game
+electronVersion: 8.2.3
